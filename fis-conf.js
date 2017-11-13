@@ -99,7 +99,7 @@ fis.media('production');
 
 fis.media('rd').match('*', {
   deploy : fis.plugin('http-push', {
-      receiver : 'http://cp01-rd-cloud-storage-002.cp01.baidu.com:8999/receiver',
-      to : '/home/users/dongshaoyang/test' //部署机器的路径
+      receiver : 'http://xxxx:8999/receiver',
+      to : '/home/users/xxxx/test' //部署机器的路径
   })
 })
