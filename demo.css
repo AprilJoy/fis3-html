@@ -1,0 +1,19 @@
+img { border: 5px solid #ccc; }
+
+
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0; }
+.container .column,
+.container .columns {
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
+.row {
+  margin-bottom: 2rem; }
+.row .column:first-child,
+.row .columns:first-child {
+  margin-left: 0; }
